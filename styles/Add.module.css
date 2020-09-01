@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.input {
+  width: 70%;
+  height: 40px;
+  margin: 0 10px 0px 0;
+  font-size: 1.4rem;
+}
+
+.button {
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+
+.editButton {
+  background-color: lawngreen;
+  color: black;
+  border: 2px solid black;
+  padding: 2px 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px black;
+  font-weight: 600;
+}

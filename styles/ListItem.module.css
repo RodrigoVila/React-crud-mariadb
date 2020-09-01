@@ -1,0 +1,49 @@
+.container {
+  padding: 0 10px;
+  width: 100%;
+  height: 50px;
+  background-color: indigo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-bottom: 1px solid black;
+}
+
+.editOverlay {
+  opacity: 0.5;
+}
+
+.borderTop {
+  border-top: 1px solid black
+}
+
+.index {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1.3rem;
+
+}
+
+.userName {
+  width: 60%;
+  font-size: 1.3rem;
+}
+
+.button {
+  margin: 10px;
+  border: 2px solid black;
+  padding: 2px 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px black;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: lawngreen;
+}
+
+.delete {
+  background-color: tomato;
+}
